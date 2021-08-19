@@ -1,0 +1,76 @@
+.nav-list {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    
+
+    flex-direction: row;
+    /* Because of row on X axis */
+    justify-content: flex-end;
+    align-content: center;
+    
+}
+
+.nav-links {
+    margin-left: 5px;
+    align-self: center;
+    font-size: 12px;
+}
+
+
+.btn__login {
+    background-color: rgb(0, 119, 255);
+    padding: 5px 15px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.mid-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search-wrap {
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+}
+
+.search-wrap header {
+    font-size: 20px;
+    color: blue;
+    align-self: center;
+    
+}
+
+.btn-wrap {
+   display: flex;
+   align-self:center;
+   
+}
+
+.btn__primary {
+    /* align-self: flex-end; */
+    background-color: white;
+    border-style: none;
+    margin: 11px 4px;
+    padding: 0 16px;
+    
+}
+
+.btn__primary:hover {
+    border-style: solid;
+    border-color: rgb(189, 186, 186);
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.footer {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
